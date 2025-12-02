@@ -1,77 +1,68 @@
-/* ---------- RESET ---------- */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* ---------- GENERAL PAGE STYLING ---------- */
+/* Base page styling */
 body {
-  background-color: #0d0d0d; 
-  color: #e6e6e6;
-  font-family: "JetBrains Mono", monospace;
-  line-height: 1.6;
-  padding: 40px;
+    margin: 0;
+    padding: 0;
+    background-color: #0d0d0d;
+    color: #e6e6e6;
+    font-family: "Inter", sans-serif;
+    line-height: 1.6;
 }
 
-/* Center content & limit width */
-.container {
-  max-width: 800px;
-  margin: auto;
-}
-
-/* ---------- HEADER ---------- */
-header {
-  margin-bottom: 40px;
-}
-
-header h1 {
-  font-size: 2.4rem;
-  color: #00ffcc;
-  text-shadow: 0 0 10px #00ffcc;
+/* Navigation bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: #000000;
+    border-bottom: 1px solid #1a1a1a;
 }
 
 nav a {
-  margin-right: 20px;
-  color: #ff66ff;
-  text-decoration: none;
-  font-weight: bold;
+    color: #00eaff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 500;
 }
 
 nav a:hover {
-  color: #00ccff;
-  text-shadow: 0 0 10px #00ccff;
+    color: #33ffff;
 }
 
-/* ---------- HERO SECTION ---------- */
-.hero-title {
-  font-size: 3rem;
-  margin-bottom: 10px;
-  color: #00ffea;
-  text-shadow: 0 0 12px #00ffea;
+/* Hero section */
+.hero {
+    padding: 100px 40px;
 }
 
-.hero-subtitle {
-  font-size: 1.2rem;
-  color: #cccccc;
-  margin-bottom: 20px;
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: #00eaff;
+    text-shadow: 0 0 10px #00eaff;
 }
 
-.hero-text {
-  font-size: 1.1rem;
-  color: #bbbbbb;
-  max-width: 700px;
+.hero p {
+    font-size: 20px;
+    max-width: 800px;
 }
 
-/* ---------- SECTION SPACING ---------- */
+/* Section layout */
 section {
-  margin-top: 60px;
+    padding: 60px 40px;
+    border-top: 1px solid #1a1a1a;
 }
 
-/* ---------- FOOTER ---------- */
+section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #ff00ff;
+    text-shadow: 0 0 8px #ff00ff;
+}
+
+/* Footer */
 footer {
-  margin-top: 80px;
-  color: #777;
-  font-size: 0.9rem;
-  text-align: center;
+    text-align: center;
+    padding: 40px;
+    font-size: 14px;
+    color: #777;
 }
