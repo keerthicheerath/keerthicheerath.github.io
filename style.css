@@ -1,1 +1,76 @@
+/* ==== GENERAL ==== */
+body {
+  margin: 0;
+  padding: 0;
+  background: #0d0d0d;
+  font-family: "Inter", sans-serif;
+  color: #e6e6e6;
+}
+
+/* ==== CONTAINER ==== */
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+/* ==== HEADER ==== */
+h1 {
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #00eaff;
+}
+
+.subtitle {
+  color: #888;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+/* ==== SECTIONS ==== */
+section {
+  margin-bottom: 60px;
+}
+
+section h2 {
+  font-size: 28px;
+  margin-bottom: 16px;
+  color: #00eaff;
+  border-left: 4px solid #00eaff;
+  padding-left: 10px;
+}
+
+/* ==== PROJECT CARDS ==== */
+.project-card {
+  background: #111;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 1px solid #222;
+  transition: 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+  border-color: #00eaff;
+}
+
+/* ==== LINKS ==== */
+a {
+  color: #00eaff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ==== FOOTER ==== */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  color: #555;
+  font-size: 14px;
+}
 
